@@ -24,8 +24,20 @@ A linguagem foi atualizada cinco vezes importantes em 2011, 2014, 2017, 2020 e 2
 Como `C++` é próximo de `C` , `C#` e `Java` , fica fácil para os programadores migrarem para `C++` ou vice-versa.
 
 
+## <font color="gree">Formatando o código em C++</font>
+Para formatar o código em `C++`, podemos usar o comando `clang-format`.
 
+* A instalação do `clang-format` pode ser feita com o comando:
 
+```bash
+sudo apt-get install clang-format
+```
+
+* Para formatar o código, podemos usar o comando:
+
+```bash
+clang-format -i <arquivo>.cpp
+```
 
 
 
