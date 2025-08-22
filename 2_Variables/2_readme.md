@@ -36,8 +36,28 @@ As regras gerais para nomear variáveis ​​são:
 Quando você não quiser que outros (ou você mesmo) alterem valores de variáveis existentes, use a palavra-chave ``const`` (isso declarará a variável como ``"constante"``, o que significa imutável e somente leitura).
 
 
+## <font color="gree">User Input em C++</font>
+Você já aprendeu que ``cout`` é usado para gerar (imprimir) valores. Agora, usaremos ``cin`` para obter informações inseridas pelo usuário.
 
+``cin`` é uma variável predefinida que lê dados do teclado com o operador de extração (`` >>``).
 
+A seguir mostramos um exemplo de uma ``Calculadora simples``:
+```cpp
+#include <iostream>
+using namespace std;
+
+int main(){
+    int x;
+    int y;
+    cout << "CALCULADORA SIMPLES" << endl;
+    cout << "Digite o primeiro número inteiro: ";
+    cin >> x;
+    cout << "Digite o segundo número inteiro: ";
+    cin >> y;
+    cout << "A soma de " << x << " e " << y << " é: " << x + y << endl;
+    return 0;
+}
+```
 
 
 
