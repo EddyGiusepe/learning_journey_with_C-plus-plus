@@ -59,6 +59,34 @@ int main(){
 }
 ```
 
+## <font color="gree">A palavra-chave `auto`</font>
+A palavra-chave `auto` detecta automaticamente o tipo de uma variável com base no valor que você atribui a ela. Ajuda você a escrever código mais limpoe evitar tipos repetidos, especialmente para tipos longos ou complexos.
+
+```cpp
+#include <iostream>
+#include <string>
+using namespace std;
+ 
+int main () {
+  // Criando variáveis auto
+  auto myNum = 5;            // int
+  auto myFloatNum = 5.99;    // float
+  auto myDoubleNum = 9.98;   // double
+  auto myLetter = 'D';       // char
+  auto myBoolean = true;     // bool
+  auto myString = string("Olá"); // std::string
+     
+  // Imprimindo os valores das variáveis
+  cout << "int: " << myNum << "\n";
+  cout << "float: " << myFloatNum << "\n";
+  cout << "double: " << myDoubleNum << "\n";
+  cout << "char: " << myLetter << "\n";
+  cout << "bool: " << myBoolean << "\n";
+  cout << "string: " << myString << "\n";
+ 
+  return 0;
+}
+```
 
 
 
