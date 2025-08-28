@@ -24,6 +24,7 @@ int main() {
   // ACESSANDO ELEMENTOS DA STRING
   cout << BLUE << "O primeiro elemento da string é: " << RESET << texto[0]
        << endl;
+  cout << YELLOW << "O último elemento da string é: " << RESET << texto[texto.length() - 1] << endl;
 
   return 0;
 }
