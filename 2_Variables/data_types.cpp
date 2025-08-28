@@ -29,5 +29,22 @@ int main() {
   string my_name = "Eddy Giusepe";
   cout << GREEN << "Meu nome é: " << RESET << my_name << endl;
 
+  // A PALAVRA-CHAVE `auto`:
+  auto myNum = 5;            // int
+  auto myFloatNum = 5.99;    // float
+  auto myDoubleNum = 9.98;   // double
+  auto myLetter = 'D';       // char
+  auto myBoolean = true;     // bool
+  auto myString = string("Olá, Dr. Eddy Giusepe!"); // std::string
+     
+  // Imprimindo os valores das variáveis:
+  cout << RED << "int: " << RESET << myNum << "\n";
+  cout << RED << "float: " << RESET << myFloatNum << "\n";
+  cout << RED << "double: " << RESET << myDoubleNum << "\n";
+  cout << RED << "char: " << RESET << myLetter << "\n";
+  cout << RED << "bool: " << RESET << myBoolean << "\n";
+  cout << RED << "string: " << RESET << myString << "\n";
+ 
+
   return 0;
 }
